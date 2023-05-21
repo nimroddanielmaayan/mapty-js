@@ -323,3 +323,15 @@ class App {
 }
 
 const app = new App();
+
+// Alert message - instructions
+
+const alertMessage = `
+Welcome to the Workout Tracker App! 🏃‍♂️🚴‍♀️
+Instructions:
+- Allow the browser to access your location
+- Click on the map to add a new workout
+- Click on a workout to zoom the map on it
+`;
+
+setTimeout('alert(alertMessage)', 1);
